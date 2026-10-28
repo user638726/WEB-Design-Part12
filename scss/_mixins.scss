@@ -1,0 +1,16 @@
+@mixin flex-ceneter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@mixin article{
+    flex:1;
+    margin:0 15px;
+    background:var(--box-shadow-container);
+    box-shadow:var(--box-shadow);
+    padding:20px;
+    border-radius:5px;
+}
